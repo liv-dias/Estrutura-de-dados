@@ -15,7 +15,7 @@ public class Main{
             } while (numero != 0);
         
         System.out.printf("Total de elementos na pilha: %d\n", p.sizeElements());
-        System.out.printf("O correspondente binario do valor %d é: ",);
+        System.out.printf("O correspondente binario do valor %d é: ", numeroSalvo);
         while(!p.isEmpty()){
             System.out.print(p.pop());
         }
@@ -23,5 +23,6 @@ public class Main{
         System.out.printf("Erro: %s\n", e.getMessage());
     }
             
+}
 }
     
